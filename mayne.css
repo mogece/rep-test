@@ -1,0 +1,12 @@
+body{
+    height: 900px;
+    background-color: #1b1e31;
+    justify-content: center;
+}
+.flex{
+    width: 200px;
+    height: 200px;
+}
+.flex>h1{
+    color: azure;
+}
