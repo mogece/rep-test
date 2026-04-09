@@ -2,6 +2,7 @@ body{
     height: 900px;
     background-color: #1b1e31;
     justify-content: center;
+    color: white;
 }
 .flex{
     width: 200px;
@@ -9,4 +10,10 @@ body{
 }
 .flex>h1{
     color: azure;
+}
+.text{
+    font-size: 50px;
+    color: orange;
+    text-decoration:underline;
+    text-decoration-color: yellowgreen;
 }
