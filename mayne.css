@@ -1,19 +1,30 @@
-body{
-    height: 900px;
-    background-color: #1b1e31;
-    justify-content: center;
-    color: white;
+body {
+  height: 900px;
+  background-color: #1b1e31;
+  justify-content: center;
+  color: azure;
+  font-style: 20px;
 }
-.flex{
-    width: 200px;
-    height: 200px;
+header {
+  max-height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.flex>h1{
-    color: azure;
+.flex {
+  width: 200px;
+  height: 200px;
 }
-.text{
-    font-size: 50px;
-    color: orange;
-    text-decoration:underline;
-    text-decoration-color: yellowgreen;
+.text {
+  color: orange;
+  text-decoration: underline;
+  text-decoration-color: yellowgreen;
+}
+em {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.img {
+  border-radius: 50%;
+  box-shadow: 2px 4px 5px 1px #c9b476;
 }
